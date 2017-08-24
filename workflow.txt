@@ -28,4 +28,16 @@ git commit -m "Message about you have changed"
 # track all the files, imagine all *.py source code files for example
 git add '*.txt'
 
+# after making some commits, you can browse in the history of these commits
+# by running the command
+git log
+
+# the output is  a history of commits with messages, author, email, date/time and 
+# commit codes. This is like a journal that remembers all the changes we have 
+# commited up to now
+
+# if you make changes to file(s), to see te changes to file(s) not yet 
+# staged, run the command
+git diff
+# if you run this command right after git add file, the output will be empty
 
