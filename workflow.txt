@@ -41,3 +41,5 @@ git log
 git diff
 # if you run this command right after git add file, the output will be empty
 
+# to include a file with the file specs to be ignored in tracking, include 
+# a .gitignore file
