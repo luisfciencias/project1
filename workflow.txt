@@ -1,0 +1,18 @@
+# to start repo tracking
+git init
+
+# to check status of the project
+git status
+
+# imagine you modify one file, many files in which you have source code
+# if you run git status again, it will tell you that there are files
+# that have changed 
+git status  # output that some files have been modified
+            # or even that there are  files not being tracked
+
+# tell git to track the files you want to track, for example this one
+git add filename
+
+
+
+
