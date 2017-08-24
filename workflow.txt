@@ -13,6 +13,19 @@ git status  # output that some files have been modified
 # tell git to track the files you want to track, for example this one
 git add filename
 
+# every time you run the command git add filename, you include filename into the
+# staging area. Running git status again will tell you that there are changes
+# associated with filename to be commited
 
+# the files listed in the changes to be commited are in the staging area 
+# and they are not in our repo yet. We could add or remove files from the stage area
+# before store them in the repo.
+# To store the staged changes we run the git commit command with the message flag
+# to include a description what we have changed
+git commit -m "Message about you have changed"
+
+# during your stage file tracking, you can use wildcard operator * to
+# track all the files, imagine all *.py source code files for example
+git add '*.txt'
 
 
